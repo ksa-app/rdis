@@ -1,0 +1,40 @@
+{
+  "name": "overseaserp",
+  "version": "1.0.0",
+  "description": "Multi-Tenant SaaS ERP for Overseas Recruitment Agencies",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "format": "prettier --write \"app/**/*.{ts,tsx}\" \"lib/**/*.{ts,tsx}\" \"types/**/*.{ts,tsx}\"",
+    "clean": "rm -rf .next node_modules package-lock.json"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.110.0",
+    "@upstash/redis": "^1.34.9",
+    "lucide-react": "^1.22.0",
+    "next": "^16.2.9",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.2",
+    "@types/node": "^26.0.1",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.5.2",
+    "eslint": "^10.6.0",
+    "eslint-config-next": "^16.2.9",
+    "postcss": "^8.5.16",
+    "prettier": "^3.9.4",
+    "tailwindcss": "^4.3.2",
+    "typescript": "^6.0.3"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  }
+}
